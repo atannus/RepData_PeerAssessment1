@@ -18,6 +18,7 @@ library("ggplot2")
 
 The data is loaded into an R data frame.
 ```{r}
+unzip("activity.zip")
 data <- read.csv("activity.csv")
 ```
 

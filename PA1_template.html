@@ -72,7 +72,8 @@ img {
 <div id="loading-and-preprocessing-the-data" class="section level2">
 <h2>Loading and preprocessing the data</h2>
 <p>The data is loaded into an R data frame.</p>
-<pre class="r"><code>data &lt;- read.csv(&quot;activity.csv&quot;)</code></pre>
+<pre class="r"><code>unzip(&quot;activity.zip&quot;)
+data &lt;- read.csv(&quot;activity.csv&quot;)</code></pre>
 <p>The date column is parsed as Date objects.</p>
 <pre class="r"><code>data$date &lt;- as.Date(data$date)</code></pre>
 <p>A copy of the complete cases is created.</p>
