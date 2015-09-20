@@ -15,6 +15,10 @@ library("ggplot2")
 
 ## Loading and preprocessing the data
 
+The data is loaded into an R data frame.
+```{r}
+data <- read.csv("activity.csv")
+```
 
 
 ## What is mean total number of steps taken per day?
