@@ -21,6 +21,16 @@ The data is loaded into an R data frame.
 data <- read.csv("activity.csv")
 ```
 
+The date column is parsed as Date objects.
+```{r}
+data$date <- as.Date(data$date)
+```
+
+A copy of the complete cases is created.
+```{r}
+cc <- data[complete.cases(data),];
+```
+
 
 ## What is mean total number of steps taken per day?
 
