@@ -124,7 +124,7 @@ Plot a histogram of the filled data.
 
 ```r
 filled <- aggregate(list(steps=copy$steps), by=list(day=copy$date), FUN=sum)
-hist(filled$steps)
+hist(filled$steps, main = "Steps per day", xlab = "Steps in a day")
 ```
 
 ![plot of chunk unnamed-chunk-12](figure/unnamed-chunk-12-1.png) 
