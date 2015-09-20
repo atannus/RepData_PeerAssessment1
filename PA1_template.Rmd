@@ -1,9 +1,9 @@
 ---
 title: "Reproducible Research: Peer Assessment 1"
 output: 
-html_document:
-keep_md: true
-author: André Tannús
+    html_document:
+    keep_md: true
+    author: André Tannús
 ---
 
 ## Libraries.
@@ -136,15 +136,5 @@ ggplot(data=interval.filled, aes(x=interval, y=avgsteps)) +
 ```
 
 It appears that activities are more evenly distributed throghout the day on weekends, whereas they seem to be more concentrated in the earlier parts of the weekdays.
-
-
-
-
-
-
-
-
-
-
 
 
