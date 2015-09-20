@@ -5,6 +5,13 @@ output:
     keep_md: true
 ---
 
+## Libraries.
+
+Some effort was put into making this document dependant on a few libraries as possible.
+The only requirement is the ggplot2 library.
+```{r}
+library("ggplot2")
+```
 
 ## Loading and preprocessing the data
 
